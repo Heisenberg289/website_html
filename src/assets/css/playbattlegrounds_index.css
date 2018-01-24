@@ -1,0 +1,236 @@
+.chiji-banner_01{width: 100%;height: 822px;background: url("./../../assets/image/playbattlegrounds/Banner7 (2).png") no-repeat center top;position: relative;}
+.chiji-banner_011{width: 100%;height: 822px;background: url("./../../assets/image/playbattlegrounds/Banner7 (2).png") no-repeat center top;position: relative;}
+.chiji_01{background-color: #1f2227;position: relative;z-index: 9;}
+.chiji_01 .el-input__inner{border-color: #666;}
+.chiji_02{width: 1186px;margin: 0 auto;box-sizing: border-box;position: relative;}
+.chiji_03{background: url("./../image/playbattlegrounds/BGimg.png") no-repeat center center;margin-top: -20px;}
+.chiji_04{width: 1186px;margin: 0 auto;box-sizing: border-box;position: relative}
+.el-pager li.active+li{border-left: 1px solid #666}
+.chiji_04>li{width: 77px;height: 28px;border-radius: 2px;text-align: center;line-height: 28px;cursor: pointer;vertical-align:bottom ;float: none;
+  background-color: #1a1d27;font-size: 12px;color: #b8babc;display: inline-block;}
+.chiji_05{font-size: 14px;color: #fff;}
+#chiji .chiji_06{width: 92px;height: 32px;background: url("./../../assets/image/playbattlegrounds/Activedlabel.png");background-size: 100% 100%;font-size: 14px;color: #fff;
+line-height: 32px;text-align: center;}
+.chiji_07{position: absolute;left: 50%;transform: translate(-50%);bottom:0;bottom: 5%;transition: 0.3s}
+.chiji_07:hover{opacity: 0.9}
+.chiji_08{padding: 30px 0 10px 15px;color: #fff;font-weight: bold;    border-bottom: 1px solid #333;}
+.chiji_09{height: 414px;    border-bottom: 1px solid #333;}
+.chiji_10{width: 172px;height: 32px;text-align: center;line-height: 32px;color: #fff;border: 1px solid #ffd100;border-radius: 4px;opacity: 0.8;cursor: pointer;}
+.chiji_10:hover{opacity: 1;}
+.chiji_11{padding: 10px 16px;}
+.chiji_12{width: 90%;margin: 0 auto;height: 100%;}
+.chiji_12>li:nth-child(1){width: 8%;text-align: center;line-height: 180px;padding-top: 20px;}
+.chiji_12>li:nth-child(1)>img{transform: rotate(-180deg);cursor: pointer}
+.chiji_12>li:nth-child(2){width: 84%;position: relative;overflow: hidden;}
+.chiji_12>li:nth-child(3){width: 8%;text-align: center;line-height: 180px;padding-top: 20px;}
+.chiji_12>li:nth-child(3)>img{cursor: pointer}
+.chiji_13{height: 100%;width: 99999px;position: absolute;transition: 0.3s;padding-top: 20px;}
+.chiji_13>li{width: 168px;}
+.chiji_14{font-size: 14px;color: #b8babc;margin-top: 330px;}
+.chiji_15{font-size: 14px;color: #ff5722;}
+.chiji_16{width: 90%;margin: 0 auto;}
+.chiji_17{width: 100%;height: 180px;border-radius: 4px;}
+.chiji_18{position: relative;border-radius: 4px;border: 2px solid transparent;cursor: pointer;margin-bottom: 13px;transition: 0.3s}
+.chiji_19{border: 2px solid #ffd100;}
+.chiji_20{font-size: 14px;color: #b8babc;}
+.chiji_21{background-color: transparent;margin: 10px 0;border: none;outline: none;color: #fff;font-weight: bold;width: 100%;font-size: 16px;}
+.chiji_21::-webkit-input-placeholder{color: #666;font-size: 12px;}
+.chiji_22{line-height: 41px;height: 41px;text-align: center;background-color: rgba(0,0,0,0.6);font-size: 16px;color: #fff;font-weight: bold;
+width: 100%;left: 0;bottom: 0;position: absolute;letter-spacing: 1px;}
+.chiji_23{position: absolute;top:-5px;right: 10px;z-index: 9;}
+.chiji_24{display: inline-block;margin: 0 auto;}
+.chiji_24>li{width: 198px;height: 36px;text-align: center;background: url("./../../assets/image/playbattlegrounds/labemu.png");color: #b8babc;cursor: pointer;line-height: 38px;transition: 0.3s}
+.chiji_24>li:hover{color: #fff;}
+.chiji_01 .chiji_26{background: url("./../../assets/image/playbattlegrounds/labemq.png");color: #fff;}
+.chiji_27{text-align: center;}
+.chiji_28{}
+.chiji_29{}
+.chiji_30{}
+.chiji_09 .chiji_not_allowed:hover{cursor: not-allowed;}
+
+#tab1{line-height: 1;padding: 20px;}
+#tab1 .el-tabs__item.is-active{color: #fff;}
+#tab1 .el-tabs__item{color: #b8babc}
+.tab1_01{width: 143px;text-align: center;font-weight: bold;font-size: 16px;color: #b8babc;padding:15px 0 20px 0;cursor: pointer;border-bottom: 4px solid transparent;transition: 0.5s}
+.tab1_01:hover{color: #fff;}
+.tab1_02{font-weight: normal;font-size: 14px;margin-top: 10px;}
+.tab1_03{border-bottom: 1px solid rgba(255,255,255,0.08);position: relative;text-align: center;}
+.tab_active{;color: #fff;background: url("./../image/playbattlegrounds/Brush(1).png");background-size: 100% 100%;}
+.tab_active_underline{position: absolute;height: 4px;background-color: #FFD100;width: 143px;transition: all 0.3s ease-in;bottom: 0;}
+.tab_middle{position: absolute;left: 50%;transform: translateX(-50%)}
+.tab1_04{line-height: 45px;border-bottom: 1px solid rgba(255,255,255,0.08);font-size: 16px;font-weight: bold;color: #fff;position: relative;}
+.tab1_05{display: inline-block;width: 8px;height: 8px;margin: 0 8px ;background-color: #ffd100;border-radius: 100%;}
+.tab1_06{font-size: 14px;color: #b8babc;line-height: 36px;margin-top: 14px;background-color: #272a31;}
+.tab1_06>li{width: 63px;text-align: center;}
+#tab1 .tab1_07{width: 180px;text-align: left;}
+#tab1 .tab1_08{padding-left: 32px;box-sizing: border-box;}
+.tab1_09{line-height: 68px;border-bottom: 1px solid rgba(255,255,255,0.08);font-size: 14px;color: #3fdc45;}
+.tab1_09>li{width: 63px;text-align: center;}
+.tab1_10{font-size: 14px;color: #fff;display: inline-block;}
+.tab1_11{font-size: 16px;color: #fff;font-weight: bold;margin: 0 5px;font-family: Aparajita;}
+.tab1_12{display: inline-block;text-align: left;width: 22px;}
+.tab1_13{height: 750px;overflow-y: auto;margin-bottom: 10px;}
+.tab1_14{height: 118px;background-color: rgba(255,255,255,0.06);padding: 7px 0;box-sizing: border-box;overflow: hidden;}
+.tab1_14>li{width: 25%;height: 100%;position: relative;box-sizing: border-box;}
+.tab1_15{border-right:1px solid rgba(255,255,255,0.08);color: #fff;font-size: 14px;}
+.tab1_16{border: 1px solid #bbbbbb;width: 36px;height: 36px;border-radius: 100%;margin-right: 8px;}
+.tab1_17{margin-top: 10px;font-size: 12px;color: #b8babc;margin-bottom: 10px;}
+.tab1_18{font-size: 12px;color: #ffd100;}
+.tab1_19{width: 60%;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%)}
+.tab1_20{font-size: 12px;color: #8492b4;cursor: pointer}
+.tab1_21{transition: 0.5s;transform: rotate(180deg)}
+.tab1_22{transform: rotate(0deg)}
+.tab1_23{font-size: 14px;color: #fff}
+.tab1_24{font-size: 14px;color: #fff;font-weight: bold;}
+.tab1_25{}
+.tab1_26{}
+.tab1_27{}
+
+.innerbox::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 14px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 14px;
+}
+.innerbox::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  background-color: #252724;
+  width: 15px;
+  height: 15px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+.innerbox::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.08);
+  border-radius: 0;
+  background: rgba(0,0,0,0.08);
+}
+
+#tab3{height: 100%;overflow-y: scroll;min-height: 900px;padding-top: 20px;}
+.tab3_01{width: 92%;font-size: 14px;color: #fff;margin: 0 auto;}
+.tab3_02{line-height: 1.5;margin-bottom: 20px;}
+.tab3_02>li:nth-child(1){width: 10%;color: #b8babc;padding-right: 15px;text-align: right;box-sizing: border-box;}
+.tab3_02>li:nth-child(2){width: 90%;font-size: 14px;}
+#tab3 .tab3_03{margin-bottom: 30px;}
+#tab3 .tab3_03>li{color: #fff;}
+.tab3_04{display: inline-block;width: 5px;height: 5px;border-radius: 100%;background-color: #fed700;margin-right: 5px;vertical-align: middle;}
+.tab3_05{border-top: 1px solid rgba(255,255,255,0.08);border-bottom: 1px solid rgba(255,255,255,0.08);}
+.tab3_05>li:nth-child(1){width: 10%;color: #fff;padding-right: 15px;text-align: right;box-sizing: border-box;height: 39px;line-height: 39px;cursor: pointer;}
+.tab3_05>li>img{vertical-align: middle;margin-right: 8px;transition: 0.5s;}
+.tab3_06{padding: 16px;position: relative;}
+.tab3_06>li{width: 20%;}
+.tab3_07{margin-bottom: 20px;}
+.tab3_07>li:nth-child(1){width: 50%;text-align: right;padding-right: 13px;box-sizing: border-box;color: #b8babc;}
+.tab3_08{position: absolute;left: 50%;transform: translate(-50%)}
+.tab3_09{transform: rotate(-90deg);}
+.tab3_10{font-weight: bold;padding: 20px 0;}
+.tab3_11{}
+.tab3_11>li{width: 16.666%;margin-bottom: 16px;}
+.tab3_12{}
+.tab3_12>li:nth-child(1){width: 45%}
+.tab3_12>li:nth-child(2){width: 50%}
+.tab3_13{}
+.tab3_14{}
+.tab3_15{}
+.tab3_16{}
+.tab3_17{}
+.tab3_18{}
+.tab3_19{}
+.tab3_20{}
+
+
+.chijiNews_01{position: absolute;left: 50%;transform: translateX(-50%);top: 80%;z-index: 99;}
+.chijiNews_02{width: 20%;text-align: center;margin: 0 auto;color: #fff;font-size: 14px;}
+.chijiNews_03{margin-bottom: 50px;}
+.chijiNews_02>p:nth-child(1){font-size: 24px;font-weight: bold;color: #ffd100;}
+.chijiNews_03>li:nth-child(1){width: 40%;border-bottom: 1px solid rgba(255,255,255,0.08);padding-top: 25px;}
+.chijiNews_03>li:nth-child(3){width: 40%;border-bottom: 1px solid rgba(255,255,255,0.08);padding-top: 25px;}
+.chijiNews_04{width: 60%;color: #b8babc;font-size: 14px;margin: 0 auto;margin-bottom: 19px;}
+.chijiNews_04>li:nth-child(1){padding-right: 12px;text-align: right;width: 20%;box-sizing: border-box;line-height: 40px;}
+.chijiNews_04>li:nth-child(2){width: 80%;}
+.chijiNews_04 .el-input__inner{background-color: transparent;color: #fff;}
+.chijiNews_04 .el-textarea__inner{background-color: transparent;color: #fff;border-color: #666;}
+.el-scrollbar__wrap{margin-bottom: -17px !important;margin-right: -17px !important;}
+.chijiNews_04 .el-select{width: 95%;}
+.el-select-dropdown{border-color: #666;}
+.el-select-dropdown__item{float: none;}
+.el-select-dropdown{background-color: #181b20;}
+.el-select-dropdown__item.selected{color: #b8babc}
+.el-select-dropdown__item{color: #b8babc}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{background-color: #25282d}
+.chijiNews_06{padding: 40px 0;background: url("../image/playbattlegrounds/FrameN.png");text-align: center;background-size: 100% 100%;}
+.chijiNews_06 .el-button{margin-top: 17px;padding: 12px 50px;background-color: #212733;}
+/*color: #000;background-color: #FED700;border-color: #FED700;*/
+.chijiNews_07{text-align: center;color: #fff;font-size: 24px;line-height: 1.5;padding: 31px 0 30px 0;}
+.chijiNews_08{font-size: 12px;color: #ffd100;letter-spacing: 2px;}
+.chijiNews_09{width: 100%;position: relative;height: 108px;}
+.chijiNews_10{width: 100%;border-radius: 3px;border: 1px solid #666;height: 100%;box-sizing: border-box;}
+.chijiNews_10>li{border-right: 1px solid #666;width: 20%;height: 100%;position: relative;box-sizing: border-box;transition: 0.3s}
+.chijiNews_10>li:hover{background-color: rgba(0,0,0,0.3)}
+.chijiNews_10>li>img{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);width: 50%;}
+.chijiNews_11{}
+
+.border-style{    border-image: url(./../../assets/image/border_01.png) 3 3 stretch;
+  -moz-border-image: url(./../../assets/image/border_01.png) 3 3 stretch;
+  -webkit-border-image: url(./../../assets/image/border_01.png) 3 3 stretch;
+  -o-border-image: url(./../../assets/image/border_01.png) 3 3 stretch;
+  border-image-width: 2px;background-color: rgba(20,23,31,0.7);}
+
+#tab2{height: 900px;}
+.tab2_01{height: 100%;padding-left: 1%}
+.tab2_01>li{width: 32.3%;height: 100%;background-color: rgba(0,0,0,0.3);margin-right: 1%;position: relative;}
+.tab2_02{font-size: 14px;color: #b8babc;line-height: 36px;margin-top: 14px;background-color: #272a31;padding-left: 24px;}
+.tab2_02>li{}
+.tab2_02>li:nth-child(1){width: 30%;}
+.tab2_02>li:nth-child(2){width: 40%;}
+.tab2_02>li:nth-child(3){width: 30%;}
+.tab2_03{border-bottom: 1px solid rgba(255,255,255,0.08);line-height: 64px;font-size: 14px;padding-left: 24px;color: #fff;}
+.tab2_03>li{}
+.tab2_03>li:nth-child(1){width: 30%;box-sizing: border-box;}
+.tab2_03>li:nth-child(2){width: 40%;}
+.tab2_03>li:nth-child(3){width: 10%;text-align: center;}
+.tab2_03>li:nth-child(4){width: 20%;text-align: center;font-size: 12px;color: #8492b4;cursor: pointer;}
+.tab2_04{margin: 0 5px; }
+.tab2_05{padding-left: 14px;}
+.tab2_06{line-height: 64px;font-size: 14px;padding-left: 24px;color: #fff;background-color: rgba(255,255,255,0.08);margin-bottom: 1px;}
+.tab2_06>li:nth-child(1){width: 40%;margin-left: 30%;}
+.tab2_06>li:nth-child(2){width: 10%;text-align: center;}
+.tab2_06>li:nth-child(3){width: 20%;text-align: center;font-size: 12px;}
+.tab2_06>li:nth-child(3)>a{color: #ffd100;}
+.tab2_07{overflow-y: scroll;height: 800px;}
+.tab2_08{}
+
+#tab4{height: 900px;}
+.tab4_01{height: 100%;}
+.tab4_01>li{box-sizing: border-box;height: 100%;}
+.tab4_01>li:nth-child(1){width: 25%;padding-right: 20px;}
+.tab4_01>li:nth-child(2){width: 75%;}
+.tab4_02{width: 100%;background-color: rgba(0,0,0,0.3);border-radius: 4px;min-height: 128px;margin-top: 16px;}
+.tab4_03{height: 128px;width: 100%;position: relative;text-align: center;}
+.tab4_04{position: absolute;top: 50%;transform: translate(-50%,-50%);left: 50%;width: 100%;}
+.tab4_04>p:nth-child(1){font-size: 14px;color: #b8babc;}
+.tab4_04>p:nth-child(2){font-size: 16px;color: #b8babc;font-weight: bold;margin: 18px 0 16px 0;}
+.tab4_04>p:nth-child(3){font-size: 14px;color: #b8babc;}
+.tab4_05{font-size: 24px;}
+.tab4_06{font-weight: normal;margin: 0 20px;}
+.tab4_07{color: #fff;}
+.tab4_08{height: 171px;position: relative;text-align: center;padding: 0 20px;}
+.tab4_09{border-top: 1px solid rgba(255,255,255,0.08);width: 100%;height: 100%;position: relative;}
+.tab4_10{width: 100%;position: absolute;transform: translateY(-50%);top: 50%;font-size: 16px;color: #fff;}
+.tab4_11{height: 64px;width: 64px;border-radius: 100%;border: 2px solid #ffd100;}
+.tab4_12{margin: 5px 0 10px 0;}
+.tab4_13{overflow-y: scroll;height: 855px;}
+.tab4_14{font-size: 14px;color: #b8babc;line-height: 36px;padding-left: 24px;padding-right: 15px;
+  background-color: #272a31;}
+.tab4_14>li{width: 18%;box-sizing: border-box;}
+.tab4_14 .tab4_15{width: 9%}
+.tab4_16{height: 700px;overflow-y: scroll;}
+.tab4_17{    line-height: 68px;color: #fff;padding-left: 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 14px;}
+.tab4_17>li{box-sizing: border-box;width: 18%}
+.tab4_17>li:nth-child(7){cursor: pointer;color: #8492b4;}
+.tab4_17>li:nth-child(4){color: #3fdc45;}
+.tab4_17>li:nth-child(5){color: #3fdc45;}
+.tab4_18{padding-left: 14px;}
+.tab4_19{text-align: center}
+.tab4_20{padding-right: 70px;}
+
+

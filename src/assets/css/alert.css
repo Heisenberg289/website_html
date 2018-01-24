@@ -1,0 +1,14 @@
+.el-message--error{background-color: rgba(0,0,0,0.8);border-color: #E74C3C;   }
+.el-message .el-icon-error{color: #E74C3C;}
+.el-message--error .el-message__content{color: #E74C3C;}
+.el-message--error .el-message__closeBtn{color: #E74C3C;}
+
+.el-message--success{border-color: #27AE60; background-color: rgba(0,0,0,0.8);  }
+.el-message--success .el-message__content{color: #27AE60;}
+.el-message .el-icon-success{color: #27AE60;}
+.el-message--success .el-message__closeBtn{color: #27AE60;}
+
+.el-message--warning{border-color: #FF5722; background-color: rgba(0,0,0,0.8);  }
+.el-message--warning .el-message__content{color: #FF5722;}
+.el-message .el-icon-warning{color: #FF5722;}
+.el-message--warning .el-message__closeBtn{color: #FF5722;}

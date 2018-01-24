@@ -1,0 +1,67 @@
+#mybag{
+  padding: 0 20px;
+  color: #b8babc;
+  font-size: 14px;
+  position: relative;
+}
+#mybag .title{
+  font-size:16px;
+  color: #fff;
+  line-height: 43px;
+}
+#mybag .line{
+  height: 1px;
+  background: rgba(255, 255, 255, .1);
+}
+.walletTab p{
+  font-size: 14px;
+  color: #b8babc;
+  margin-top: 10px;
+}
+.picture-list{
+  margin-top: 10px;
+  height:800px;
+}
+.picture-list .picture{
+  position: relative;
+  float: left;
+  height: 226px;
+  margin-left: 20px;
+  margin-top: 30px;
+  box-shadow:0 3px 3px 3px rgba(0,0,0,0.3)
+;
+}
+.picture .picture-images{
+  width: 181px;
+  height: 181px;
+  border: none;
+}
+.picture-line{
+  height: 2px;
+  background-color: #3dc6ff;
+  margin: 0 !important;
+}
+.picture-name{
+  height: 43px;
+  background-color: #181818;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 43px;
+  width: 181px;
+}
+.giftname{
+  margin-left: 20px;
+  display: inline-block;
+  width: 60%;
+}
+.giftnumber{
+  float: right;
+  margin-right: 20px;
+}
+.input-front{position: relative}
+.input-front>span{line-height: 35px;}
+.input-with-select{position: absolute;right: 0;top: 0;}
+.input-with-select .el-input__inner{background-color: transparent;height: 35px;padding-right: 40px;color: #fff;}
+.search{position: relative}
+#mybag .search-btn{position: absolute;right: 0;top: 0;width: 35px;height: 35px;text-align: center;line-height: 35px;cursor: pointer;opacity: 1;}

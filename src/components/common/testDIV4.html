@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=gb2312">
+   <meta http-equiv="content-script-type" content="text/javascript">
+   <meta http-equiv="content-style-type" content="text/css">
+   <title>DoDi Chat v1.0 Beta</title>
+   <style rel="stylesheet" type="text/css" media="all" />
+   <!--
+   body {
+     text-align:left;
+     margin:0;
+     font:normal 12px Verdana, Arial;
+     background:#FFEEFF
+   }
+   form {
+     margin:0;
+     font:normal 12px Verdana, Arial;
+   }
+   table,input {
+     font:normal 12px Verdana, Arial;
+   }
+   a:link,a:visited{
+     text-decoration:none;
+     color:#333333;
+   }
+   a:hover{
+     text-decoration:none;
+     color:#FF6600
+   }
+   #main {
+     width:400px;
+     position:absolute;
+     left:600px;
+     top:100px;
+     background:#EFEFFF;
+     text-align:left;
+     filter:Alpha(opacity=90)
+   }
+   #ChatHead {
+     text-align:right;
+     padding:3px;
+     border:1px solid #003399;
+     background:#DCDCFF;
+     font-size:11px;
+     color:#3366FF;
+     cursor:move;
+   }
+   #ChatHead a:link,#ChatHead a:visited, {
+     font-size:14px;
+     font-weight:bold;
+     padding:0 3px
+   }
+   #ChatBody {
+     border:1px solid #003399;
+     border-top:none;
+     padding:2px;
+   }
+   #ChatContent {
+     height:200px;
+     padding:6px;
+     overflow-y:scroll;
+     word-break: break-all
+   }
+   #ChatBtn {
+     border-top:1px solid #003399;
+     padding:2px
+   }
+   -->
+   </style>
+   
+   
+</head>
+
+<body>
+<input type="text" value="" id="test1"> 
+<div id="test" style=" position:absolute; left:20px; top:20px; width:1000px; height:1000px; background:#00FF66">
+	<div id="main" class="dragclass" style="left:500px;top:300px;">
+	   <div id="ChatHead">
+		 <!--<a href="#" onclick="ChatHidden();">-</a>
+		 <a href="#" onclick="ChatShow();">+</a>
+		 <a href="#" onclick="ChatClose();">x</a>-->
+		 
+		 <a href="javascript:ChatHidden();" >-</a>
+		 <a href="javascript:ChatShow()" >+</a>
+		 <a href="javascript:ChatClose()" ">x</a>	 
+	   </div>
+	   <div id="ChatBody">
+		 <div id="ChatContent"></div>
+		 <div id="ChatBtn">
+		   <form action="" name="chat" method="post">
+		   <textarea name="ChatValue" rows="3" style="width:350px"></textarea>
+		   <input name="Submit" type="button" value="Chat" onclick="ChatSend(this.form);" />
+		   </form>
+		 </div>
+	   </div>   
+	</div>
+</div>
+<script language="javascript">
+document.write("<ul style=\"line-height:66px;\">");
+for(i = 1; i <= 30; i++){
+     document.write("<li>循环输出文本，使页面出现垂直滚动条</li>");
+}
+document.write("</ul>");
+</script>
+
+<input type="text" value="" id="tx_o">
+
+</body>
+
+<script language="javascript" type="text/javascript">
+   <!--
+   alert(document.body.clientHeight);
+   function $(d){document.getElementById("tx_o").value = "1";return document.getElementById(d);}
+   function gs(d){document.getElementById("tx_o").value = "2";var t=$(d);if (t){return t.style;}else{return null;}}
+   function gs2(d1,a){
+     //document.getElementById("tx_o").value += "3";
+     if (d1.currentStyle){ 
+       var curVal=d1.currentStyle[a]
+     }else{ 
+       var curVal=document.defaultView.getComputedStyle(d1, null)[a]
+     } 
+     return curVal;
+   }
+   
+   function ChatHidden(){gs("ChatBody").display = "none";}
+   function ChatShow(){gs("ChatBody").display = "";}
+   function ChatClose(){gs("main").display = "none";}
+   function ChatSend(obj){
+     var o = obj.ChatValue;
+     if (o.value.length>0){
+       $("ChatContent").innerHTML += "<strong>Akon说：</strong>"+o.value+"<br/>";
+       o.value='';
+     }
+   }
+
+   if   (document.getElementById){
+     (
+       function(){	     
+         if (window.opera){ document.write("<input type='text' id='Q' value=' '>"); }      	 
+         var n = 500;
+         var dragok = false;
+         var y,x,d1,dy,dx;
+        
+         function move(e)
+         {
+		   objW = document.getElementById("main").scrollWidth;		//对象宽度
+		   objH = document.getElementById("main").scrollHeight;		//对象高度	   
+           if (!e) e = window.event;
+           if (dragok){
+		   	 /*if(parseInt(d1.style.left) >= 20 && parseInt(d1.style.left) < 1020){
+             	d1.style.left = dx + e.clientX - x + "px";
+				document.getElementById('test1').value=d1.style.left;
+			 }else{
+			 	if(parseInt(d1.style.left) < 20){
+			 		d1.style.left = 21;
+				}else{
+					d1.style.left = 21;
+				}
+				
+			 }
+			 
+			 if(parseInt(d1.style.top) > 20 && parseInt(d1.style.top) < 1020){
+             	d1.style.top   = dy + e.clientY - y + "px";
+			 }else{
+			 	if(parseInt(d1.style.top) < 20){
+			 		d1.style.top = dy + e.clientY - y + "px" + 1;
+				}else{
+					d1.style.top = dy + e.clientY - y + "px" - 1;
+				}
+			 }			 */
+			 
+			 
+			 d1.style.left = dx + e.clientX - x + "px";			 
+			 /*if(parseInt(d1.style.left) <20)
+			 	d1.style.left = 21+"px";*/
+			
+			 
+			 if(parseInt(d1.style.left) < 0){
+			 	d1.style.left = 0 + "px";
+			 }else if(parseInt(d1.style.left) > parseInt(document.body.clientWidth-objW)){
+			 	d1.style.left = (document.body.clientWidth-objW) + "px";
+			 }
+			 
+			 /*else if(parseInt(dl.style.left) > document.body.clientWidth){
+			 	dl.style.left = document.body.clientWidth + "px";
+			 }*/
+			 
+			 d1.style.top  = dy + e.clientY - y + "px";
+			 /*if(parseInt(d1.style.top) <20)
+			 	d1.style.top = 21+"px";*/
+			 if(parseInt(d1.style.top) < 0){
+				d1.style.top = 0 + "px";
+			 }else if(parseInt(d1.style.top) > document.body.clientHeight-objH){
+				d1.style.top = (document.body.clientHeight-objH) + "px";
+			 }	
+			 
+             return false;
+           }
+         }
+        
+		 
+         function down(e){		  	
+           if (!e) e = window.event;
+           var temp = (typeof e.target != "undefined")?e.target:e.srcElement;
+           if (temp.tagName != "HTML"|"BODY" && temp.className != "dragclass"){
+             temp = (typeof temp.parentNode != "undefined")?temp.parentNode:temp.parentElement;
+           }
+           if('TR'==temp.tagName){
+             temp = (typeof temp.parentNode != "undefined")?temp.parentNode:temp.parentElement;
+             temp = (typeof temp.parentNode != "undefined")?temp.parentNode:temp.parentElement;
+             temp = (typeof temp.parentNode != "undefined")?temp.parentNode:temp.parentElement;
+           }
+        
+           if (temp.className == "dragclass"){
+             if (window.opera){ document.getElementById("Q").focus(); }
+             dragok = true;
+             temp.style.zIndex = n++;
+             d1 = temp;
+             dx = parseInt(gs2(temp,"left"))|0;
+             dy = parseInt(gs2(temp,"top"))|0;
+             x = e.clientX;
+             y = e.clientY;
+             document.onmousemove = move;
+             return false;
+           }
+         }
+        
+         function up(){		 
+           dragok = false;
+           document.onmousemove = null;
+         }
+        
+         document.onmousedown = down;
+         document.onmouseup = up;
+      
+       }
+     )();
+   }
+   -->
+   </script>
+
+</html>

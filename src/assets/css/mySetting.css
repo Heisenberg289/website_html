@@ -1,0 +1,339 @@
+#mysetting{padding: 0 20px;    color: #b8babc; font-size: 14px;}
+#mysetting  .title {border-bottom: 1px solid rgba(255, 255, 255, 0.1);font-size: 16px;color: #fff;line-height: 43px;}
+.mysetting_01{height: 348px;text-align: center;border-bottom: 1px solid rgba(255, 255, 255, 0.1);position: relative}
+.mysetting_02{width: 100%;padding: 36px 0;}
+.mysetting_02>li{width: 50%;box-sizing: border-box;}
+.mysetting_02>li:nth-child(1){padding-right: 38px;border-right: 1px solid rgba(255, 255, 255, 0.1)}
+.mysetting_02>li:nth-child(2){padding-left: 38px;text-align: left;position: relative;padding-top: 15px;}
+.mysetting_03{width: 160px; height: 160px; border-radius: 4px; background: #b8babc;line-height: 160px;position: relative;cursor: pointer;overflow: hidden;}
+.mysetting_04{width: 102px;height: 102px;border-radius: 100%}
+.mysetting_05{margin-top: 10px;font-size: 14px;color: #b8babc;}
+.mysetting_06{text-align: center;display: inline-block;}
+.mysetting_07{font-size: 12px;color: #666;text-align: center;margin-bottom: 28px;}
+.mysetting_08{height: 32px;line-height: 32px;padding: 0 40px;display: inline-block;margin: 0 auto;border-radius: 4px;background-color: #212733;cursor: pointer;}
+.mysetting_09{height: 312px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);position: relative;}
+.mysetting_10{color: #b8babc;font-size: 14px;margin-bottom: 10px;}
+.mysetting_10>li:nth-child(1){width: 110px;padding-right: 20px;text-align: right;line-height: 40px;}
+.mysetting_11{width: 339px}
+.mysetting_12{line-height: 40px;}
+.mysetting_13{text-align: center;display: inline-block;}
+.mysetting_14{text-align: center}
+.mysetting_15{font-size: 14px;color: #b8babc;text-align: center;display: inline-block;margin: 0 auto;}
+.mysetting_16{width: 150px;margin: 20px 10px 20px 0;}
+.mysetting_17{width: 250px;}
+.mysetting_18{margin: 10px 0 16px;}
+.mysetting_19{font-size: 16px;color: #fff;}
+.mysetting_20{font-size: 14px;color: #b8babc;margin-top: 10px;}
+.mysetting_21{font-size: 12px;color: #ffd100}
+.mysetting_22{margin-bottom: 14px}
+.mysetting_23{text-align: center;font-size: 14px;color: #b8babc;padding-left: 150px;padding-right: 75px;}
+.mysetting_23>ul{margin-bottom: 20px;}
+.mysetting_23>ul>li:nth-child(1){margin-right: 16px;width: 120px;text-align: right;line-height: 40px;}
+.mysetting_24{height: 180px;width: 240px;border: 1px dashed #b8babc;border-radius: 4px;position: relative;text-align: center;}
+.mysetting_25{font-size: 12px;margin-top: 16px;text-align: left;}
+.mysetting_26{font-size: 24px;color: #fff;margin: 15px 0;}
+.mysetting_27{font-size: 14px;color: #b8babc;}
+.mysetting_27>li:nth-child(1){width: 130px;text-align: right}
+.mysetting_28{text-align: center;padding-top: 81px;}
+.mysetting_29{padding-left: 33%}
+.mysetting_30{text-align: center;padding-top: 84px;}
+.mysetting_31{font-size: 24px;color: #fff;margin: 15px 0;}
+#mysetting_32{}
+
+
+#modal-role .role-footer button{
+  cursor: pointer;
+}
+
+.ani_dot {
+  font-family: simsun;
+}
+
+:root .ani_dot { /* 这里使用Hack是因为IE6~IE8浏览器下， vertical-align解析不规范，值为bottom或其他会改变按钮的实际高度*/
+  display: inline-block;
+  width: 1.5em;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+
+@-webkit-keyframes dot {
+  0% {
+    width: 0;
+    margin-right: 1.5em;
+  }
+  33% {
+    width: .5em;
+    margin-right: 1em;
+  }
+  66% {
+    width: 1em;
+    margin-right: .5em;
+  }
+  100% {
+    width: 1.5em;
+    margin-right: 0;
+  }
+}
+
+.ani_dot {
+  -webkit-animation: dot 3s infinite step-start;
+}
+
+@keyframes dot {
+  0% {
+    width: 0;
+    margin-right: 1.5em;
+  }
+  33% {
+    width: .5em;
+    margin-right: 1em;
+  }
+  66% {
+    width: 1em;
+    margin-right: .5em;
+  }
+  100% {
+    width: 1.5em;
+    margin-right: 0;
+  }
+}
+
+.ani_dot {
+  animation: dot 3s infinite step-start;
+}
+
+
+
+
+
+
+#mysetting .el-button{background-color: #212733;padding: 12px 40px;}
+#mysetting .el-tabs__header{margin-bottom: 0px;}
+#mysetting .el-tabs__active-bar{background-color: #fed700}
+#mysetting .el-tabs__bar{background-color: #fed700}
+#mysetting .el-tabs__item.is-active {color: #fff;}
+#mysetting .el-tabs__item{color: #b8babc}
+#mysetting .el-tabs__item:hover{color: #fff;}
+#mysetting .el-tabs__nav-wrap::after{background-color: transparent}
+#mysetting .el-tabs__nav-wrap{border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+#mysetting .el-input__inner{background-color: transparent;color: #fff;font-size: 14px;border-color: #666;}
+#mysetting .el-radio__label{font-size: 14px;color: #b8babc}
+#mysetting .el-radio__input.is-checked .el-radio__inner{border-color: #ffd200;background-color: #ffd200}
+#mysetting .el-radio__inner{background-color: transparent;}
+#mysetting .el-radio__inner:hover{border: 1px solid #ffd200;}
+#mysetting .el-select{width: 130px;}
+.el-select-dropdown__item{float: none;}
+#mysetting .el-date-editor.el-input, .el-date-editor.el-input__inner{width: 339px;}
+#mysetting .el-step__title.is-process{color: #b8babc;}
+#mysetting .el-step__head.is-success{border-color: #ffd200;color: black;}
+#mysetting .el-step__title.is-success{color: #ffd200;}
+#mysetting .el-step__title{font-size: 14px}
+ .el-select-dropdown{background-color: #181b20;}
+.el-select-dropdown__item.selected{color: #b8babc}
+.el-select-dropdown__item{color: #b8babc}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{background-color: #25282d}
+.el-popper[x-placement^=bottom] .popper__arrow::after{border-bottom-color: #181b20}
+.el-popper[x-placement^=top] .popper__arrow::after{border-top-color: #181b20}
+.el-picker-panel{background-color: #181b20;color: #b8babc;}
+.el-picker-panel__icon-btn{color: #b8babc}
+/*#mysetting .el-step__icon.is-text{background-color: #ffd200}*/
+.el-notification__title{line-height: 24px;vertical-align: middle;color: #333;font-weight: normal;font-size: 14px;}
+.el-notification{background-color: #ffd200}
+
+#mysetting .offPic,#mysetting .personPicR,#mysetting .personL{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#mysetting .avatar-uploader{
+  height: 100%;
+}
+#mysetting .el-upload{
+  width: 100%;
+  height: 100%;
+}
+#mysetting [class*=" el-icon-"], [class^=el-icon-]{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+#mysetting .el-upload img{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+#mysetting .gameBind-title{
+  padding: 10px 10px;
+  color: #fff;
+  line-height: 36px;
+  border-bottom: 1px solid #333;
+}
+#mysetting .point{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: #ffd100;
+}
+#mysetting .gameBind-cont .cont{
+  padding: 10px 20px;
+  line-height: 31px;
+  height: 31px;
+  border-bottom: 1px solid #333;
+}
+#mysetting .cont-title{
+  color: #fff;
+  width: 32%;
+}
+#mysetting .cont-title img{
+  margin-right: 5px;
+}
+#mysetting .gameBind-cont a{
+  color: #ffd100;
+}
+#mysetting .gameBind-role{
+  margin-top: 50px;
+}
+#mysetting .input{
+  width: 330px;
+}
+#mysetting .input input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #666;
+  padding: 5px;
+  color: #fff;
+}
+#mysetting .gameBind-table-title{
+  padding: 10px 10px;
+  line-height: 36px;
+  height: 36px;
+  background: #333;
+}
+#mysetting .gameBind-table-title p:nth-child(1){
+  width: 18%;
+}
+#mysetting .gameBind-table-title p:nth-child(2){
+  width: 10%;
+}
+#mysetting .gameBind-table-title p:nth-child(3){
+  width: 15%;
+}
+#mysetting .gameBind-role-cont{
+  padding: 10px 10px;
+  line-height: 36px;
+  border-bottom: 1px solid #333;
+}
+#mysetting .gameBind-role-cont p:nth-child(1){
+  width: 18%;
+  font-weight: bold;
+  color: #fff;
+}
+#mysetting .gameBind-role-cont p:nth-child(2){
+  width: 10%;
+}
+#mysetting .gameBind-role-cont p:nth-child(3){
+  width: 15%;
+}
+#mysetting .gameBind-role-cont p:nth-child(4){
+  width: 45%;
+  height: 36px;
+}
+#mysetting .gameBind-role-cont p a{
+  color: #ffd100;
+  outline: none;
+}
+#mysetting .gameBind-role-cont img{
+  margin-right: 5px;
+  width: 36px;
+}
+#mysetting .clear{
+  overflow: hidden;
+}
+#mysetting .role-title{
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+#modal-role .el-select:hover .el-input__inner{
+  background: #141720;
+}
+#modal-role .el-input--suffix .el-input__inner{
+  background: #141720;
+  border: 1px solid #666;
+}
+#modal-role .role-body{
+  text-align: center;
+  color: #b8babc;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #333;
+}
+#modal-role .role-title{
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 10px;
+  border-bottom: 1px solid #333;
+}
+#modal-role .el-input__inner{
+  height: 32px;
+  color: #fff;
+}
+#modal-role .role-cont{
+  margin-bottom: 20px;
+}
+#modal-role .role-cont-input input{
+  width: 300px;
+  background: transparent;
+  border: 1px solid #666;
+  height: 32px;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+#modal-role .role-footer{
+  text-align: right;
+  padding: 15px 0;
+}
+#modal-role .role-footer button{
+  width: 114px;
+  height:32px;
+  border-radius: 4px;
+}
+#modal-role .role-footer .add{
+  background: #ffd100;
+  border: none;
+  margin-right: 10px;
+}
+#modal-role .role-footer .del{
+  background: transparent;
+  border: 1px solid #b8babc;
+  color: #b8babc;
+}
+#mysetting .againCommit{
+  margin-top: 20px;
+}
+#mysetting .againCommit button{
+  background: #ffd100;
+  border:none;
+  width: 150px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#mysetting .mysetting_27 li{
+  margin-bottom: 5px;
+}
+#mysetting .mysetting_27 img{
+  width: 150px;
+  height: 150px;
+  background: white;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}

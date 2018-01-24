@@ -1,0 +1,250 @@
+#myDog{
+  padding: 0 20px;
+  color: #b8babc;
+  font-size: 14px;
+}
+#myDog .clear{
+  overflow: hidden;
+}
+#myDog .fl{
+  float: left;
+}
+#myDog .fr{
+  float: right;
+}
+#myDog .line{
+  height: 1px;
+  background: rgba(255, 255, 255, .1);
+}
+#myDog .title{
+  font-size:16px;
+  color: #fff;
+  line-height: 43px;
+}
+#myDog .dog-top{
+  /*height: 702px;*/
+  margin-top: 30px;
+  padding-left: 77px;
+  overflow: hidden;
+}
+#myDog .top-myPic{
+  height:278px;
+  width: 200px;
+  float: left;
+  border-radius: 4px;
+  margin-right: 69px;
+  position: relative;
+  background: #3dc6ff;
+}
+#myDog .myPic-bg{
+  position: absolute;
+  bottom: -5px;
+  width: 102%;
+  left: -2px;
+}
+#myDog .myMessage{
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  text-align: center;
+}
+#myDog .top-myMsg{
+  float: left;
+}
+#myDog .my-head{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto 6px;
+  position: relative;
+  border: 2px solid #fff;
+}
+#myDog .my-head img{
+  position: absolute;
+  top:-13px;
+  left: 50%;
+  transform: translate(-50%,0);
+  display: inline-block;
+}
+#myDog input{
+  background: transparent;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 4px;
+  line-height: 32px;
+  outline: none;
+  padding: 0 10px;
+}
+#myDog .myName{
+  font-size: 20px;
+  color: #3dc6ff;
+  font-weight: bold;
+}
+#myDog .myNumber{
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#myDog .clear .label,#myDog .clear .cont{
+  float: left;
+}
+#myDog .clear .label{
+  line-height: 32px;
+  margin-right: 16px;
+}
+#myDog .dogNameText{
+  width: 339px;
+}
+#myDog .clear button{
+  width: 100px;
+  line-height: 30px;
+  background: transparent;
+  border: 1px solid #b8babc;
+  color: #b8babc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#myDog .dogNumber{
+  width: 50px;
+  margin-right: 20px;
+  border: none;
+  border-bottom: 1px solid #666;
+}
+#myDog .choose{
+  float: left;
+}
+#myDog .choose p{
+  color: #666;
+}
+#myDog .choosePic{
+  width: 100%;
+  height: 260px;
+  border-radius: 4px;
+  background: #b8babc;
+  line-height: 160px;
+  text-align: center;
+  opacity: 0;
+  z-index: 999;
+  position: absolute;
+}
+#myDog .choosePic img{
+  vertical-align: middle;
+}
+#myDog .chooseBox{
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
+#myDog .chooseBox .label{
+  margin-right: 22px;
+  line-height: normal;
+}
+#myDog .dog-center{
+  text-align: center;
+  width: 80%;
+  margin:  0 auto;
+}
+#myDog .dog-center .fl{
+ width: 33.3%;
+  padding:41px 0;
+}
+#myDog .dog-center .fl:last-child{
+  margin: 0;
+}
+#myDog .dog-center p:nth-child(2){
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+#myDog .dog-center .fl .myMoney{
+  color: #3fdc45;
+}
+#myDog .dog-prize{
+  line-height: 36px;
+  padding: 0 20px;
+  color: #fff;
+  border: 1px solid #333;
+}
+#myDog .dog-prize-title{
+  color: #b8babc;
+}
+#myDog .dog-prize .fl{
+  width: 30%;
+  text-align: left;
+}
+#myDog .dog-prize .fr{
+  width: 10%;
+  text-align: right;
+}
+#myDog .dog-prize:nth-child(odd){
+  background: #1f2224;
+}
+#myDog .dog-prize:nth-child(even){
+  background: #1a1d1f;
+}
+#myDog .pagina{
+  margin-top: 50px;
+}
+#myDog .avatar-uploader .el-upload {
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 260px;
+}
+#myDog .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 100%;
+  height: 260px;
+  line-height: 178px;
+  text-align: center;
+}
+#myDog .avatar {
+  width: 100%;
+  height: 260px;
+  display: block;
+}
+#myDog .el-icon-plus:before{
+  width: 58px;
+  height: 78px;
+  display: block;
+  content: '';
+  margin: 40px auto 0;
+  background: url("../../assets/image/personCenter/choose.png") center center /cover;
+}
+#myDog .commit{
+  margin-top: 120px;
+}
+#myDog .commit button{
+  width:110px;
+  line-height: 28px;
+  background: #ffd100;
+  border-radius: 4px;
+  border: none;
+}
+#myDog .reCord .footer{
+  margin-top: 20px;
+}
+#myDog .dogBg{
+  position: absolute;
+  top:8%;
+  left: 27%;
+  width: 90px;
+}
+#myDog .myDogBg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+}
+#myDog .text{
+  width: 200px;
+  height: 200px;
+}
+#myDog button{
+  cursor: pointer;
+}

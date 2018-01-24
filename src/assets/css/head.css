@@ -1,0 +1,78 @@
+.hoverFloat{position: absolute;width: 100%;height: 100%;left: 0;top: 0;z-index: 9;}
+a:hover{opacity: 0.9;}
+.linkActive:hover{opacity: 0.9;color: #fff;}
+.newHeadTop_01{width: 100%;height: 65px;background: rgba(0,0,0,0.7);position: fixed;top: 0;z-index: 999;min-width: 1240px;z-index: 999;}
+.newHeadTop_02{display: inline-block;width: 153px;height: 82px;background: url(./../../assets/image/head/Shape.png) no-repeat center center;line-height: 62px;text-align: center;position: relative;
+  margin-left: 9%;float: left;margin-right: 11px;}
+.newHeadTop_03{display: inline-block;}
+.newHeadTop_03 li{width: 85px;margin-right: 23px;text-align: center;height: 65px;position: relative;}
+.newHeadTop_04{font-size: 18px;font-weight: bold;}
+.newHeadTop_05{font-size: 14px;font-weight: normal;font-family: arial}
+.newHeadTop_06{top: 50%;-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);transform: translateY(-50%);position: absolute;left: 50%;width: 100%;margin-left: -44.5PX;}
+.newHeadTop_06c{color: #b8babc;}
+.newHeadTop_07{color: #ffd100;background: rgba(255,255,255,0.1);}
+.header_li:hover{color: #ffd100;background: rgba(255,255,255,0.1);}
+.newHeadTop_08{display: inline-block; float: right;margin-right: 5%;height: 65px;}
+.newHeadTop_08 >li{height: 100%;position: relative;}
+.newHeadTop_09{height: 55px;width: 55px;border-radius: 100%;cursor: pointer;}
+.newHeadTop_10{font-size: 14px;color: #b8babc;cursor: pointer;}
+.newHeadTop_11{position: absolute;top: 50%;right: 0;display: inline-block;margin-top: -15px;margin-left: -13.5px;}
+.newHeadTop_12{line-height: 65px;position: relative;}
+.newHeadTop_13{width: 35px;margin-right:30px}
+.newHeadTop_14{position: absolute;font-size: 12px;color: #ffffff;font-family: arial;background-color: #f64747;width: 14px;height: 14px;border-radius: 100%;text-align: center;line-height: 14px;right: -4px;top: -3px;}
+.newHeadTop_15{color: #b8babc;font-size:16px ;line-height: 65px;}
+.newHeadTop_16{position: absolute;left: 0%;top: 50%;transform: translateY(-50%)}
+.newHeadTop_161{color: #fff;font-size: 14px;right: 0;transform: translateY(-50%);position: absolute;top: 50%;}
+.newHeadTop_17{width: 235px;height: 124px;box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  position: absolute;background: url("./../../assets/image/head/FrameHead.png");background-size: cover;right: -10px; padding: 13px 0 0 0px;box-sizing: border-box;}
+.newHeadTop_18{cursor: pointer;}
+.newHeadTop_17 .newHeadTop_19{font-weight: bold;color: #fff;font-size: 14px;}
+.newHeadTop_17 .newHeadTop_19>img{margin-top: -3px;}
+.newHeadTop_18:hover{color: #fff;background-color: rgba(255,255,255,0.08)}
+.newHeadTop_18>img{margin-right: 15px;}
+.newHeadTop_17>div{line-height: 37px;color: #b8babc;font-size: 14px;padding-left: 15px;position: relative;}
+
+
+.float-right{position: absolute;right: 0}
+.sign-info_01{width: 260px;height: 553px;background: url("./../image/head/Sign_Bg.png");position: absolute;top: 55px;left: -155px;font-size: 12px;color: #8d879a;padding: 0 20px;box-sizing: border-box;background-size: 100% 100%;}
+.sign-info_02{padding-top: 20px;text-align: center;padding-bottom: 12px;border-bottom: 1px solid #273857;}
+.sign-info_03{display: inline-block;height: 24px;width: 94px;text-align: center;line-height: 24px;font-size: 14px;color: #ffd100;border: 1px solid #ffd100;border-radius: 24px;margin-top:10px;cursor: pointer;}
+.sign-info_03:hover{opacity: 0.8;}
+.sign-info_04{position: relative;padding: 5px 0;}
+.sign-info_041{margin-left: 50px;position: relative}
+.sign-info-middle{position: absolute;top: 50%;transform: translateY(-50%)}
+.sign-info_05{width: 66px;height: 24px;text-align: center;border-radius: 24px;font-size: 14px;line-height: 20px;}
+.sign-info_06{background-color: #3e494e;color: #787d80;cursor: default;}
+.sign-info_07{background-color: #e11d1c;color: #fff;cursor: pointer}
+.sign-info_08{background-color: #08b693;color: #333;cursor: pointer}
+.sign-info_09{font-size: 10px;color: #fff;}
+.sign-info_10{position: absolute;width: 100px;background: url("./../image/head/Sign_BoxContent_Normal.png");background-size: 100% 100%;top: -50px;left: -30px;padding: 5px 5px;padding-bottom: 15px;}
+.sign-info_10>div{display: inline-block;position: relative}
+.sign-info_11{position: absolute;color: #fff;font-size: 10px;bottom: 0px;right: 3px;}
+.sign-info_12{font-size: 10px;color: #75797d;text-align: center;}
+.sign-info_13{background-color: #26395d;color: #1c2e50;cursor: default;}
+.sign-info_14{width: 12px;position: absolute;left: 60%; height: 415px;  }
+.sign-info_15{width: 100%;background: #ffd800;border-radius: 20px;}
+.sign-info_16{}
+.sign-info_17{}
+.sign-info_18{}
+.sign-info_19{}
+.sign-info_20{}
+
+body{background-color: #1f2227}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;font-family: "Microsoft yahei"}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+ol,ul {list-style:none;padding: 0;margin: 0;}
+a:hover{text-decoration: none !important;}
+a:active{text-decoration: none;}
+a:link{text-decoration: none;}
+ul li{float: left;}
+img{vertical-align: middle;margin:0;padding:0}
+.fl{float: left;}
+.fr{float: right;}
+.hoverfloat{width: 100%;height: 100% !important;top: 0;left: 0;position: absolute !important;z-index: 9;}
+.no_padding{padding: 0;}
+.clearfloat{clear: both;}
+.clearfix:after {height: 0;visibility: hidden;content: ".";display: block;clear: both;}
+.ellipsis{text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+body{min-width: 1240px;}

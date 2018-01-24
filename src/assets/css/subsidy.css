@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#mySubsidy .title{
+  font-size:16px;
+  color: #fff;
+  line-height: 43px;
+  padding-left: 20px;
+}
+#mySubsidy .clear{
+  overflow: hidden;
+}
+#mySubsidy ul li{
+  float: left;
+}
+#mySubsidy #success{
+  width: 100%;
+  margin: 0 auto 50px;
+}
+#mySubsidy #wait{
+  width: 70%;
+  margin: 0 auto 50px;
+}
+#mySubsidy .line{
+  height: 1px;
+  background: rgba(255, 255, 255, .1);
+}
+#mySubsidy .title a{
+  color: #b8babc;
+  font-size: 14px;
+}
+#mySubsidy .title a:last-child{
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+#mySubsidy .title img{
+  transform: rotateZ(-90deg);
+  margin: -2px 5px 0;
+}
+#mySubsidy .fl{
+  float: left;
+}
+#mySubsidy .success{
+  text-align: center;
+  color: #fff;
+  position: relative;
+  height: 473px;
+}
+#mySubsidy .success .cont{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 550px;
+  transform: translate(-50%,-50%);
+}
+#mySubsidy .success .money .fl{
+  padding:0 32px;
+  font-size: 16px;
+  color: #b8babc;
+}
+#mySubsidy .success .money .fl span{
+  font-size: 20px;
+  color: #fff;
+}
+#mySubsidy .share{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#mySubsidy .share button{
+  width:192px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+#mySubsidy .share .share-btn{
+  background: #3fdd45;
+  color: #fff;
+  margin-right: 42px;
+}
+#mySubsidy .share .create{
+  background:#ffd100;
+  color: #000;
+}
+#mySubsidy .footer{
+  width: 440px;
+  margin: 20px auto 0;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom: -110px;
+}
+#mySubsidy .footer p{
+  font-size: 14px;
+  color: #b8babc;
+}
+
+#mySubsidy #fail{
+  width: 70%;
+  margin: 0 auto 50px;
+}
+
+#mySubsidy #fail .fail,#wait .fail{
+  position: relative;
+  height: 473px;
+}
+#mySubsidy #fail .cont,#wait .cont{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+#mySubsidy #fail .pic,#wait .pic{
+  margin-bottom: 30px;
+}
+#mySubsidy #fail .cont p:nth-child(2),#wait .cont p:nth-child(2){
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+#mySubsidy #fail .cont p:nth-child(3),#wait .cont p:nth-child(3){
+  font-size: 16px;
+  color: #b8babc;
+  margin-bottom: 46px;
+  margin-top: 10px;
+}
+#mySubsidy #fail .cont p:last-child button,#wait .cont p:last-child button{
+  background: #ffd100;
+  color:black;
+  font-size: 16px;
+  width: 150px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+}
+#mySubsidy .reCord{
+  padding: 0 30px;
+  color: #b8babc;
+  font-size: 14px;
+  position: relative;
+  height: 280px;
+}
+#mySubsidy .record-table ul:first-child{
+  background: #333;
+}
+#mySubsidy .matchName{
+  color: #fff;
+  font-weight: bold;
+  width:100%;
+}
+#mySubsidy .matchPrize{
+  font-size: 12px;
+}
+#mySubsidy .record-title{
+  padding: 10px 31px;
+}
+#mySubsidy .record-title li:nth-child(1){
+  width: 31%;
+}
+#mySubsidy .record-title li:nth-child(2){
+  width: 24%;
+}
+#mySubsidy .record-title li:nth-child(3){
+  width: 19%;
+}
+#mySubsidy .record-title li:nth-child(4){
+  width: 15%;
+}
+#mySubsidy .record-title li:nth-child(5){
+  width: 10%;
+}
+#mySubsidy .record-title li:nth-child(6){
+   width: 10%;
+}
+#mySubsidy .record-msg{
+  padding: 14px 31px;
+  height: 38px;
+  position: relative;
+  border-bottom: 1px solid #333;
+}
+
+#mySubsidy .record-msg li:nth-child(1){
+  margin-right: 10px;
+}
+#mySubsidy .record-msg li:nth-child(1) img{
+  width: 36px;
+}
+#mySubsidy .record-msg li:nth-child(2){
+  width: 25%;
+}
+#mySubsidy .record-msg li:nth-child(3){
+  width: 24%;
+  line-height: 36px;
+}
+#mySubsidy .record-msg li:nth-child(4){
+  width: 19.5%;
+  line-height: 36px;
+}
+#mySubsidy .record-msg li:nth-child(5){
+  width: 10%;
+  line-height: 36px;
+}
+#mySubsidy .record-msg li:nth-child(6){
+  line-height: 36px;
+  width: 10%;
+}
+#mySubsidy .record-msg li:nth-child(6) a{
+  color: #ffd100;
+}
+#mySubsidy .record-msg li:nth-child(7){
+  line-height: 36px;
+  float: right;
+  margin-right: 10px;
+}
+#mySubsidy .record-msg .add{
+  color: #3fdc45;
+}
+#mySubsidy .record-msg .wait{
+  color: #b8babc;
+}
+#mySubsidy .shareImg{
+  cursor: pointer;
+}
+#success .successMsg{
+  position: relative;
+}
+#success .msg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#success .msgUsed p:nth-child(2){
+  color: rgb(255, 87, 34);
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#success .msgHave{
+  margin-top: 10px;
+}
+#success .msgHave p:nth-child(2){
+  color:rgb(61, 198, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+.shareModal{
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.shareModal p{
+  margin-bottom: 5px;
+}
+#mySubsidy .share-btn{
+  cursor: pointer;
+}
+#mySubsidy button{
+  cursor: pointer;
+}
+
+#mySubsidy #hasnt{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 250px;
+}
+#mySubsidy #hasnt p{
+  margin-bottom: 20px;
+}
+#mySubsidy #hasnt a{
+  background: #ffd100;
+  display: inline-block;
+  width: 150px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #000;
+  border-radius: 4px;
+  border: none;
+}
+#mySubsidy .exchangeShare{
+  position: absolute;
+  width: 258px;
+  height: 107px;
+  z-index: 99;
+  top: -85px;
+  right: 0;
+  text-align: center;
+  background: url("../../assets/image/personCenter/POPUP.png") center center /cover;
+}
+#mySubsidy  .code,#mymatch .text{
+  width: 50%;
+  float: left;
+  height:90px;
+  margin-top: 5px;
+}
+#mySubsidy  .text p{
+  line-height: normal;
+  margin-bottom: 10px;
+}

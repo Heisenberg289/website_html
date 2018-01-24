@@ -1,0 +1,263 @@
+#myWallet{
+  padding: 0 20px;
+  color: #b8babc;
+  font-size: 14px;
+  position: relative;
+}
+#myWallet .title{
+  font-size:16px;
+  color: #fff;
+  line-height: 43px;
+}
+#myWallet .line{
+  height: 1px;
+  background: rgba(255, 255, 255, .1);
+}
+#myWallet-top{
+  height: 172px;
+  padding-left: 30px;
+}
+#myWallet-top .dogFood1{
+  margin-top: 30px;
+}
+#myWallet-top .dogFood{
+  margin-top: 30px;
+  margin-left: -13px;
+}
+#myWallet-top .dognumber{
+  margin-left: 20px;
+}
+.bone{
+  height: 13px;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+.dogFood1 a{
+  margin-left: 8px;
+  color: #ffd100;
+  font-size: 14px;
+}
+.dogFood a{
+  margin-left: 8px;
+  color: #ffd100;
+  font-size: 14px;
+}
+.dogFood1 .warning{
+  margin-left: 20px;
+  color: #666;
+  font-size: 12px;
+}
+.dogFood .warning{
+  margin-left: 20px;
+  color: #666;
+  font-size: 12px;
+}
+.walletTab{
+  margin-left: 5px;
+}
+.asset{
+  margin-top: 30px;
+  height:600px;
+  /*background-color: red;*/
+}
+.block{
+  /*position: absolute;*/
+  /*bottom: 10px;*/
+margin: 0 auto;
+
+}
+.table-title{
+  height: 36px;
+  line-height: 36px;
+}
+.table-title .f1{
+  width: 48%;
+  float: left;
+  padding-left: 10px
+}
+.table-title .f2{
+  width: 35%;
+  float: left;
+}
+.table-title .f3{
+  width: 15%;
+  float: left;
+  color: #ff5722;
+}
+.table-title .f4{
+  width: 15%;
+  float: left;
+  color: #3fdc45;
+}
+.table-title:nth-child(odd){
+  border: solid 1px rgba(255, 255, 255, 0.09);
+  background-color: #1a1d1f;
+}
+.table-title:nth-child(even){
+  border: solid 1px #1f2224;
+  background-color: #1f2224;
+}
+.table-title1{
+  height: 36px;
+  line-height: 36px;
+}
+.table-title1 .f1{
+  width: 25%;
+  float: left;
+  padding-left: 10px
+}
+.table-title1 .f2{
+  width: 25%;
+  float: left;
+
+}
+.table-title1 .f3{
+  width: 23%;
+  float: left;
+
+}
+.table-title1 .f4{
+  width: 25%;
+  float: left;
+
+}
+.table-title1:nth-child(odd){
+  border: solid 1px rgba(255, 255, 255, 0.09);
+  background-color: #1a1d1f;
+}
+.table-title1:nth-child(even){
+  border: solid 1px #1f2224;
+  background-color: #1f2224;
+}
+.lose{
+
+}
+.recharge-modal{
+  color: #b8babc;
+  font-size: 14px;
+}
+.recharge-modal .modal-head{
+  padding:30px 0 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid #333;
+}
+.modal-body,.modal-rule{
+  height:322px;
+}
+.modal-body{
+  position: relative;
+  border-bottom: 1px solid #333;
+}
+.body-sp{
+  position: absolute;
+  right: 8%;
+  top: 10%;
+  cursor: pointer;
+  color: #ffd100;
+}
+.modal-bodyCont{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.modal-bodyCont .modal-myMsg{
+  overflow: hidden;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.modal-bodyCont .modal-myMsg p{
+  float: left;
+}
+.modal-bodyCont .modal-myMsg .icon{
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+.modal-bodyCont .myMoney{
+  font-size: 22px;
+  color: #ffd100;
+  font-weight: bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none !important;
+  margin: 0;
+}
+.modal-bodyCont .myMsg-label{
+  width: 84px;
+}
+.modal-bodyCont input{
+  width: 257px;
+  line-height: 32px;
+  background: transparent;
+  border: 1px solid #666;
+  outline: none;
+  padding: 0 10px;
+  color: #fff;
+  border-radius: 4px;
+}
+.modal-myMsg button{
+  height: 32px;
+  width: 90px;
+  background: transparent;
+  border: 1px solid #b8babc;
+  border-radius: 4px;
+  color: #fff;
+}
+.modal-foot{
+  text-align: right;
+  padding: 10px 0;
+}
+.modal-foot button{
+  width: 118px;
+  height: 32px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+.modal-foot .commit{
+  background: #ffd100;
+  border: none;
+}
+.modal-foot .modal-close{
+  border: 1px solid #b8babc;
+  background: transparent;
+  color: #b8babc;
+}
+.recharge-modal button{
+  cursor: pointer;
+}
+.modal-rule{
+  padding-left: 15px;
+  padding-top: 30px;
+  position: relative;
+  border-bottom: 1px solid #333;
+}
+.rule-sp{
+  position: absolute;
+  right: 8%;
+  top: 10%;
+  color: #ffd100;
+  cursor: pointer;
+}
+.modal-rule .rule-title{
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.rule-msg{
+  overflow: hidden;
+}
+.rule-msg p.msg-cont{
+  color: #fff;
+}
+.rule-msg p{
+  margin-bottom: 5px;
+}
+.rule-msg .msg-cont{
+  float: left;
+}
+
